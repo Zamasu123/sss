@@ -4,8 +4,13 @@
 # Napisz program, który obliczy średnią liczbę punktów w grupie z
 # wykorzystaniem pętli while.
 
-n = int(input('podaj liczbę studentów: ')):
+n = int(input('Podaj liczbę studentów: '))
 
-while n
-    punkty = (input('podaj liczę punktów: '))
-    suma += punkty
+a = 1
+suma = 0
+
+while a<=n:
+    b=int(input(f'Podaj liczbę punktów studenta {a}: '))
+    suma+=b
+    a+=1
+else: print(suma/n)
